@@ -50,3 +50,24 @@ button:hover {
   font-size: 24px;
   margin-top: 30px;
 }
+nav {
+  background-color: #2b2b2b;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+nav a {
+  float: left;
+  color: #f1f1f1;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+nav a:hover {
+  background-color: #4b4b4b;
+}
+main {
+  margin-top: 60px;
+}

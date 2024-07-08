@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<?php require('header.php');?>
     <div class="container">
         <h1>Генератор паролей</h1>
         <form method="post">
@@ -36,7 +37,7 @@
             <button type="submit" name="generate">Сгенерировать пароль</button>
         </form>
         
-        <?php require('password.php');?>
+        <?php require('php/password.php');?>
     </div>
 </body>
 </html>
